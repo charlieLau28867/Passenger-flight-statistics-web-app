@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Comp3322_asm2</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body>
+  <div class="border-box">
+    <h1>Hong Kong International Airport<br>Flight Information</h1>
+    <p id="warningMsg"></p>
+    <div id=Input>
+      <label for="DateOfFlight">Date of flight:</label>
+      <input
+        id="DateOfFlight"
+        type="date"
+        name="flightdate"
+        title=""
+        selectDay=""
+        max="" 
+        min=""/>
+      <button id="bttn">Search</button>
+    </div>
+    <p></p>
+    <div id = Stat>
+
+      <div id="dep">
+        <p id="title"></p>
+        <p></p>
+        <div class="bar">
+        </div>
+        <div class="TOPTEN">
+          <p id="title"></p>
+          <div class="toptendisplay">
+            <p id="code"></p>
+            <p id="Airport"></p>
+            <p id="NoOfFlights"></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="arv">
+        <p hidden></p>
+        <p id="title"></p>
+        <p></p>
+        <div class="bar">
+        </div>
+        <div class="TOPTEN">
+          <p id="title"></p>
+          <div class="toptendisplay">
+            <p id="code"></p>
+            <p id="Airport"></p>
+            <p id="NoOfFlights"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
